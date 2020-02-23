@@ -1,0 +1,31 @@
+{
+  "name": "students-wiki-backend",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatorangejuice/students-wiki-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greatorangejuice/students-wiki-backend/issues"
+  },
+  "homepage": "https://github.com/greatorangejuice/students-wiki-backend#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "mongoose": "5.9.2"
+  },
+  "devDependencies": {
+    "dotenv": "8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "2.0.2"
+  }
+}
